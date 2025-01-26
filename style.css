@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div-area {
+  height: auto;
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 500px;
+  background-color: white;
+}
+
+.inputandAdd {
+  width: 90%;
+  height: 40px;
+  position: relative;
+  bottom: 30px;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  background-color: #e0e8eb;
+  border: none;
+  position: relative;
+  left: 20px;
+  top: 100px;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+
+.add {
+  height: 50px;
+  width: 20%;
+  background-color: #ff8225;
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  top: 50px;
+  left: 380px;
+  font-weight: bolder;
+}
+
+.heading {
+  font-weight: bolder;
+  position: relative;
+  left: 150px;
+  top: 50px;
+  font-size: 2rem;
+}
+
+input::placeholder {
+  position: relative;
+  left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.taskList {
+  height: auto;
+  width: 450px;
+  position: relative;
+  top: 100px;
+  left: 15px;
+}
+
+.notesOuter button {
+  background-color: red;
+  border: none;
+  right: 0;
+  top: 3px;
+  width: 20%;
+  height: 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: white;
+}
+
+.notesOuter p {
+  width: 400px;
+  position: relative;
+  left: 5px;
+}
+
+.notesOuter div {
+  height: 14px;
+  width: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.notesOuter {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 3px;
+}
